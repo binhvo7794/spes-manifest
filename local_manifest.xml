@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+ <remote name="me" 
+        fetch="https://github.com/binhvo7794" />
+ <remote name="los" 
+        fetch="https://github.com/LineageOS" />
+ <!-- Trees -->
+ <project path="device/xiaomi/spes" name="android_device_xiaomi_spes" remote="me" revision="13.0" />
+ <!-- Vendor -->
+ <project path="vendor/xiaomi" name="android_vendor_xiaomi_spes" remote="me" revision="13.0" />
+ <!-- Kernel -->
+ <project path="kernel/xiaomi/spes" name="kernel_xiaomi_sm6225" remote="me" revision="android-14" />
+ <!-- Hardware -->
+ <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="los" revision="lineage-20" />
+</manifest>
