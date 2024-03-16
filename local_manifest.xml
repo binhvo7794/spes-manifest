@@ -26,13 +26,9 @@
     <remove-project name="PixelExperience/hardware_qcom-caf_bengal_display" />
     <project path="hardware/qcom-caf/bengal/display" remote="github" name="TheMatheusDev/hardware_qcom-caf_bengal_display" revision="thirteen"/>
 
-    <!-- Source NFC -->
-    <remove-project name="platform/hardware/st/nfc"/>
-    <project path="hardware/st/nfc" remote="github" name="PixelExperience/hardware_st_nfc" revision="thirteen"/>
-
     <!-- spes device tree dependencies: -->
-    <project path="device/xiaomi/spes" remote="github" name="GuidixX/device_xiaomi_spes" revision="thrall"/>
-    <project path="device/xiaomi/sm6225-common" remote="github" name="GuidixX/device_xiaomi_sm6225-common" revision="thrall"/>
+    <project path="device/xiaomi/spes" remote="github" name="binhvo7794/android_device_xiaomi_spes-chrisl7" revision="thirteen"/>
+    <project path="device/xiaomi/sm6225-common" remote="github" name="CHRISL7/android_device_xiaomi_sm6225-common" revision="thirteen"/>
     <project path="device/xiaomi/sm6225-common-miuicamera" remote="github" name="AOSPA/android_device_xiaomi_sm6225-common-miuicamera" revision="topaz"/>
     
     <project path="kernel/xiaomi/sm6225" remote="github" name="GuidixX/android_kernel_xiaomi_spes" revision="DragonTurboKernel"/>
