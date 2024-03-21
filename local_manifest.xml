@@ -6,6 +6,8 @@
   <!--    <project path="device/qcom/common" remote="github" name="PixelExperience-Devices/device_qcom_common" revision="thirteen"/>
     <project path="device/qcom/common-sepolicy" remote="github" name="PixelExperience-Devices/device_qcom_common-sepolicy" revision="thirteen"/>-->
     <!-- THESE TWO ABOVE IS EVOLUTION-X SPECIFIC. YOU NEED TO CHANGE THE BELOW FILES TO YOUR MATCH YOUR ROM NAME! -->
+    <project path="device/qcom/common" remote="github" name="CHRISL7/android_device_qcom_common" revision="thirteen"/>
+    <project path="device/qcom/common-sepolicy" remote="github" name="CHRISL7/device_qcom_common-sepolicy" revision="thirteen"/>
     <!-- device/qcom/common/common.mk, device/qcom/common-sepolicy/sepolicy_vndr-legacy/SEPolicy.mk -->
     <project path="device/qcom/qssi" remote="github" name="PixelExperience-Devices/device_qcom_qssi" revision="thirteen"/>
     <project path="device/qcom/vendor-common" remote="github" name="PixelExperience-Devices/device_qcom_vendor-common" revision="thirteen"/>
