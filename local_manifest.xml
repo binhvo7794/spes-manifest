@@ -31,16 +31,12 @@
     <project path="device/xiaomi/sm6225-common" remote="github" name="CHRISL7/android_device_xiaomi_sm6225-common" revision="thirteen"/>
     <project path="device/xiaomi/sm6225-common-miuicamera" remote="github" name="AOSPA/android_device_xiaomi_sm6225-common-miuicamera" revision="topaz"/>
     
-    <project path="kernel/xiaomi/sm6225" remote="github" name="GuidixX/android_kernel_xiaomi_spes" revision="DragonTurboKernel"/>
+    <project path="kernel/xiaomi/sm6225" remote="github" name="binhvo7794/kernel_xiaomi_sm6225" revision="main"/>
     
     <project path="vendor/xiaomi/sm6225-common-miuicamera" remote="gitlab" name="ThankYouMario/android_vendor_xiaomi_sm6225-commmon-miuicamera" revision="topaz"/>
     <project path="vendor/xiaomi/spes" remote="gitlab-pe" name="android/vendor-blobs/vendor_xiaomi_spes" revision="thirteen"/>
     <project path="vendor/xiaomi/sm6225-common" remote="gitlab-pe" name="android/vendor-blobs/vendor_xiaomi_sm6225-common" revision="thirteen"/>
 
-    <!-- Viper4Android Redesign -->
-    <project path="packages/apps/ViPER4AndroidFX" name="TogoFire/packages_apps_ViPER4AndroidFX" revision="v4a" remote="github" />
-
-    <!-- ROM SOURCE CHANGES:
     Source commit dependencies:-->
     vendor/aosp: https://github.com/craftrom-os/vendor_aosp/commit/97c0cd376fc1f160664d29e3a8e5f4559a9a53b0
     vendor/aosp: https://github.com/craftrom-os/vendor_aosp/commit/6a23cfd3ad4ac795eb4fe0559dc6ac2b5b6ce505
