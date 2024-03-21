@@ -1,6 +1,6 @@
 <manifest>
   <!--<remote name="gitlab-pe" fetch="https://gitlab.pixelexperience.org"></remote>-->
-
+  <remote name="gitlab" fetch="https://gitlab.com"></remote>
 
 <!-- QCOM/COMMON device and vendor dependecies -->
     <project path="device/qcom/common" remote="github" name="PixelExperience-Devices/device_qcom_common" revision="thirteen"/>
