@@ -1,5 +1,5 @@
 <manifest>
-  <remote name="gitlab-pe" fetch="https://gitlab.pixelexperience.org"></remote>
+  <!--<remote name="gitlab-pe" fetch="https://gitlab.pixelexperience.org"></remote>-->
 
 
 <!-- QCOM/COMMON device and vendor dependecies -->
@@ -12,7 +12,7 @@
     <project path="device/qcom/wlan" remote="github" name="PixelExperience-Devices/device_qcom_wlan" revision="thirteen"/>
 
 <!-- QCOM/COMMON Source dependencies -->
-    <project path="vendor/qcom/common" remote="gitlab-pe" name="android/vendor-blobs/vendor_qcom_common" revision="thirteen"/>
+    <!--<project path="vendor/qcom/common" remote="gitlab-pe" name="android/vendor-blobs/vendor_qcom_common" revision="thirteen"/>-->
     <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" remote="github" name="PixelExperience/vendor_qcom_opensource_commonsys-intf_bluetooth" revision="thirteen"/>
     <project path="vendor/qcom/opensource/core-utils" remote="github" name="PixelExperience/vendor_qcom_opensource_core-utils" revision="thirteen"/>
     <project path="vendor/qcom/opensource/commonsys/dpm" remote="github" name="PixelExperience/vendor_qcom_opensource_commonsys_dpm" revision="thirteen"/>
@@ -22,11 +22,13 @@
     <project path="device/xiaomi/spes" remote="github" name="binhvo7794/android_device_xiaomi_spes-chrisl7" revision="thirteen"/>
     <project path="device/xiaomi/sm6225-common" remote="github" name="CHRISL7/android_device_xiaomi_sm6225-common" revision="thirteen"/>
     <project path="device/xiaomi/sm6225-common-miuicamera" remote="github" name="AOSPA/android_device_xiaomi_sm6225-common-miuicamera" revision="topaz"/>
-    
+
+    <project path="vendor/xiaomi/spes" remote="github" name="Jabiyeff/android_vendor_xiaomi_spes" revision="13.0"/>
+
     <project path="kernel/xiaomi/sm6225" remote="github" name="binhvo7794/kernel_xiaomi_sm6225" revision="main"/>
     
     <project path="vendor/xiaomi/sm6225-common-miuicamera" remote="gitlab" name="ThankYouMario/android_vendor_xiaomi_sm6225-commmon-miuicamera" revision="topaz"/>
-    <project path="vendor/xiaomi/spes" remote="gitlab-pe" name="android/vendor-blobs/vendor_xiaomi_spes" revision="thirteen"/>
-    <project path="vendor/xiaomi/sm6225-common" remote="gitlab-pe" name="android/vendor-blobs/vendor_xiaomi_sm6225-common" revision="thirteen"/>
+    <!--<project path="vendor/xiaomi/spes" remote="gitlab-pe" name="android/vendor-blobs/vendor_xiaomi_spes" revision="thirteen"/>
+    <project path="vendor/xiaomi/sm6225-common" remote="gitlab-pe" name="android/vendor-blobs/vendor_xiaomi_sm6225-common" revision="thirteen"/>-->
 
 </manifest>
