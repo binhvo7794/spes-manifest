@@ -1,5 +1,5 @@
 <manifest>
-  <!--<remote name="gitlab-pe" fetch="https://gitlab.pixelexperience.org"></remote>-->
+  <remote name="gitlab-pe" fetch="https://gitlab.pixelexperience.org"></remote>
   <remote name="gitlab" fetch="https://gitlab.com"></remote>
 
 <!-- QCOM/COMMON device and vendor dependecies -->
@@ -28,7 +28,7 @@
     <project path="kernel/xiaomi/sm6225" remote="github" name="binhvo7794/kernel_xiaomi_sm6225" revision="main"/>
     
     <project path="vendor/xiaomi/sm6225-common-miuicamera" remote="gitlab" name="ThankYouMario/android_vendor_xiaomi_sm6225-commmon-miuicamera" revision="topaz"/>
-    <!--<project path="vendor/xiaomi/spes" remote="gitlab-pe" name="android/vendor-blobs/vendor_xiaomi_spes" revision="thirteen"/>
-    <project path="vendor/xiaomi/sm6225-common" remote="gitlab-pe" name="android/vendor-blobs/vendor_xiaomi_sm6225-common" revision="thirteen"/>-->
+    <!--<project path="vendor/xiaomi/spes" remote="gitlab-pe" name="android/vendor-blobs/vendor_xiaomi_spes" revision="thirteen"/>-->
+    <project path="vendor/xiaomi/sm6225-common" remote="gitlab-pe" name="android/vendor-blobs/vendor_xiaomi_sm6225-common" revision="thirteen"/>
 
 </manifest>
