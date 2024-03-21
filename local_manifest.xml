@@ -3,7 +3,6 @@
 
 
 <!-- QCOM/COMMON device and vendor dependecies -->
-    <remove-project name="PixelExperience-Devices/device_qcom_common"/>
     <project path="device/qcom/common" remote="github" name="PixelExperience-Devices/device_qcom_common" revision="thirteen"/>
     <project path="device/qcom/common-sepolicy" remote="github" name="PixelExperience-Devices/device_qcom_common-sepolicy" revision="thirteen"/>
     <!-- THESE TWO ABOVE IS EVOLUTION-X SPECIFIC. YOU NEED TO CHANGE THE BELOW FILES TO YOUR MATCH YOUR ROM NAME! -->
