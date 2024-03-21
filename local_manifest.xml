@@ -17,13 +17,7 @@
     <project path="vendor/qcom/opensource/core-utils" remote="github" name="PixelExperience/vendor_qcom_opensource_core-utils" revision="thirteen"/>
     <project path="vendor/qcom/opensource/commonsys/dpm" remote="github" name="PixelExperience/vendor_qcom_opensource_commonsys_dpm" revision="thirteen"/>
     <project path="vendor/qcom/opensource/audio" remote="github" name="PixelExperience/vendor_qcom_opensource_audio" revision="thirteen"/>
-    <remove-project name="android_vendor_qcom_opensource_interfaces"/>
     <project path="vendor/qcom/opensource/interfaces" remote="github" name="PixelExperience/vendor_qcom_opensource_interfaces" revision="thirteen"/>
-    <remove-project name="android_vendor_qcom_opensource_fm-commonsys"/>
-
-    <!-- Display HAL with FIX to AOD -->
-    <remove-project name="PixelExperience/hardware_qcom-caf_bengal_display" />
-    <project path="hardware/qcom-caf/bengal/display" remote="github" name="TheMatheusDev/hardware_qcom-caf_bengal_display" revision="thirteen"/>
 
     <!-- spes device tree dependencies: -->
     <project path="device/xiaomi/spes" remote="github" name="binhvo7794/android_device_xiaomi_spes-chrisl7" revision="thirteen"/>
@@ -36,10 +30,4 @@
     <project path="vendor/xiaomi/spes" remote="gitlab-pe" name="android/vendor-blobs/vendor_xiaomi_spes" revision="thirteen"/>
     <project path="vendor/xiaomi/sm6225-common" remote="gitlab-pe" name="android/vendor-blobs/vendor_xiaomi_sm6225-common" revision="thirteen"/>
 
-    Source commit dependencies:-->
-    vendor/aosp: https://github.com/craftrom-os/vendor_aosp/commit/97c0cd376fc1f160664d29e3a8e5f4559a9a53b0
-    vendor/aosp: https://github.com/craftrom-os/vendor_aosp/commit/6a23cfd3ad4ac795eb4fe0559dc6ac2b5b6ce505
-    QTI Perf / CLO BoostFramework commits dependencies:
-    Topic: https://gerrit.pixelexperience.org/q/topic:CLO-BoostFramework
-    
 </manifest>
