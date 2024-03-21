@@ -3,8 +3,8 @@
   <remote name="gitlab" fetch="https://gitlab.com"></remote>
 
 <!-- QCOM/COMMON device and vendor dependecies -->
-    <project path="device/qcom/common" remote="github" name="PixelExperience-Devices/device_qcom_common" revision="thirteen"/>
-    <project path="device/qcom/common-sepolicy" remote="github" name="PixelExperience-Devices/device_qcom_common-sepolicy" revision="thirteen"/>
+  <!--    <project path="device/qcom/common" remote="github" name="PixelExperience-Devices/device_qcom_common" revision="thirteen"/>
+    <project path="device/qcom/common-sepolicy" remote="github" name="PixelExperience-Devices/device_qcom_common-sepolicy" revision="thirteen"/>-->
     <!-- THESE TWO ABOVE IS EVOLUTION-X SPECIFIC. YOU NEED TO CHANGE THE BELOW FILES TO YOUR MATCH YOUR ROM NAME! -->
     <!-- device/qcom/common/common.mk, device/qcom/common-sepolicy/sepolicy_vndr-legacy/SEPolicy.mk -->
     <project path="device/qcom/qssi" remote="github" name="PixelExperience-Devices/device_qcom_qssi" revision="thirteen"/>
