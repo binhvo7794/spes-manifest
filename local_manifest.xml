@@ -17,4 +17,5 @@
     <project path="vendor/qcom/opensource/core-utils" remote="github" name="PixelExperience/vendor_qcom_opensource_core-utils" revision="thirteen"/>
     <project path="vendor/qcom/opensource/commonsys/dpm" remote="github" name="PixelExperience/vendor_qcom_opensource_commonsys_dpm" revision="thirteen"/>
     <project path="vendor/qcom/opensource/audio" remote="github" name="PixelExperience/vendor_qcom_opensource_audio" revision="thirteen"/>
+    <project path="hardware/qcom-caf/bengal/audio" remote="github" name="PixelExperience/hardware_qcom-caf_bengal_audio" revision="thirteen"/>
 </manifest>
