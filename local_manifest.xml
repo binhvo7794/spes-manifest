@@ -17,6 +17,4 @@
     <project path="vendor/qcom/opensource/core-utils" remote="github" name="PixelExperience/vendor_qcom_opensource_core-utils" revision="thirteen"/>
     <project path="vendor/qcom/opensource/commonsys/dpm" remote="github" name="PixelExperience/vendor_qcom_opensource_commonsys_dpm" revision="thirteen"/>
     <project path="vendor/qcom/opensource/audio" remote="github" name="PixelExperience/vendor_qcom_opensource_audio" revision="thirteen"/>
-    <project path="vendor/qcom/opensource/interfaces" remote="github" name="PixelExperience/vendor_qcom_opensource_interfaces" revision="thirteen"/>
-    <remove-project name="android_vendor_qcom_opensource_fm-commonsys"/>
 </manifest>
