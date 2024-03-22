@@ -1,28 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="gitlab-pe" fetch="https://gitlab.pixelexperience.org"></remote>
-  <remote name="gitlab" fetch="https://gitlab.com"></remote>
+  <remote  name="hlong"
+           fetch="https://github.com/HoangLong-Lumi" />
 
-    <project path="device/xiaomi/spes" remote="github" name="binhvo7794/android_device_xiaomi_spes-chrisl7" revision="thirteen"/>
-  <!--<project path="vendor/xiaomi/spes" remote="github" name="crdroidandroid/android_vendor_xiaomi_spes" revision="13.0"/> -->
-    <project path="vendor/xiaomi/spes" remote="gitlab-pe" name="android/vendor-blobs/vendor_xiaomi_spes" revision="thirteen"/>
-    <project path="kernel/xiaomi/sm6225" remote="github" name="binhvo7794/kernel_xiaomi_sm6225" revision="main"/>
-    <project path="hardware/xiaomi" remote="github" name="LineageOS/android_hardware_xiaomi" revision="lineage-20"/>
+  <remote  name="hlong2nd"
+           fetch="https://github.com/Lumi-Academy" />
 
-    <project path="device/xiaomi/sm6225-common" remote="github" name="binhvo7794/android_device_xiaomi_sm6225-common" revision="thirteen"/>
-    <project path="vendor/xiaomi/sm6225-common" remote="gitlab-pe" name="android/vendor-blobs/vendor_xiaomi_sm6225-common" revision="thirteen"/>
-    <project path="device/qcom/common" remote="github" name="PixelExperience-Devices/device_qcom_common" revision="thirteen"/>
-    <project path="device/qcom/common-sepolicy" remote="github" name="binhvo7794/device_qcom_common-sepolicy" revision="thirteen"/>
-    <project path="vendor/qcom/common" remote="gitlab-pe" name="android/vendor-blobs/vendor_qcom_common" revision="thirteen"/>
-    <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" remote="github" name="PixelExperience/vendor_qcom_opensource_commonsys-intf_bluetooth" revision="thirteen"/>
-    <project path="vendor/qcom/opensource/core-utils" remote="github" name="PixelExperience/vendor_qcom_opensource_core-utils" revision="thirteen"/>
-    <project path="vendor/qcom/opensource/commonsys/dpm" remote="github" name="PixelExperience/vendor_qcom_opensource_commonsys_dpm" revision="thirteen"/>
-    <project path="vendor/qcom/opensource/audio" remote="github" name="PixelExperience/vendor_qcom_opensource_audio" revision="thirteen"/>
-    <project path="hardware/qcom-caf/bengal/audio" remote="github" name="PixelExperience/hardware_qcom-caf_bengal_audio" revision="thirteen"/>
-
-    <project path="device/qcom/qssi" remote="github" name="PixelExperience-Devices/device_qcom_qssi" revision="thirteen"/>
-    <project path="device/qcom/wlan" remote="github" name="PixelExperience-Devices/device_qcom_wlan" revision="thirteen"/>
-
-
-    <!-- Prebuilt kerne-->
-    <project path="device/xiaomi/spes-kernel" remote="github" name="PixelExperience-Devices/device_xiaomi_spes-kernel" revision="thirteen"/>
+ <!-- vin8953 -->
+  <project path="kernel/vsmart/vin8953" name="kernel_vsmart_vin8953" remote="hlong" revision="vin8953/a14" />
+  <project path="device/vsmart/vin8953" name="android_device_vsmart_casuarina" groups="device" remote="hlong2nd" revision="lineage-21" />
+  <project path="vendor/vsmart/vin8953" name="vendor_vsmart_vin8953" groups="device" remote="hlong" revision="lineage-20" />
 </manifest>
