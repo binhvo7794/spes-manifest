@@ -4,7 +4,7 @@
 
   <!--Import tree source-->
   <project path="device/xiaomi/spes" remote="github" name="binhvo7794/device_xiaomi_spes" revision="13"/>
-  <project path="vendor/xiaomi/spes" remote="github" name="sayann70/vendor_xiaomi_spes" revision="13"/>
+  <project path="vendor/xiaomi/spes" remote="github" name="binhvo7794/vendor_xiaomi_spes" revision="A13"/>
   <project path="kernel/xiaomi/sm6225" remote="github" name="binhvo7794/kernel_xiaomi_sm6225" revision="main"/>
 
 
