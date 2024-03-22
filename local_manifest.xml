@@ -10,4 +10,14 @@
 
     <project path="device/xiaomi/sm6225-common" remote="github" name="CHRISL7/android_device_xiaomi_sm6225-common" revision="thirteen"/>
     <project path="vendor/xiaomi/sm6225-common" remote="gitlab-pe" name="android/vendor-blobs/vendor_xiaomi_sm6225-common" revision="thirteen"/>
+    <project path="device/qcom/common" remote="github" name="PixelExperience-Devices/device_qcom_common" revision="thirteen"/>
+    <project path="device/qcom/common-sepolicy" remote="github" name="PixelExperience-Devices/device_qcom_common-sepolicy" revision="thirteen"/>
+    <project path="vendor/qcom/common" remote="gitlab-pe" name="android/vendor-blobs/vendor_qcom_common" revision="thirteen"/>
+    <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" remote="github" name="PixelExperience/vendor_qcom_opensource_commonsys-intf_bluetooth" revision="thirteen"/>
+    <project path="vendor/qcom/opensource/core-utils" remote="github" name="PixelExperience/vendor_qcom_opensource_core-utils" revision="thirteen"/>
+    <project path="vendor/qcom/opensource/commonsys/dpm" remote="github" name="PixelExperience/vendor_qcom_opensource_commonsys_dpm" revision="thirteen"/>
+    <project path="vendor/qcom/opensource/audio" remote="github" name="PixelExperience/vendor_qcom_opensource_audio" revision="thirteen"/>
+    <remove-project name="android_vendor_qcom_opensource_interfaces"/>
+    <project path="vendor/qcom/opensource/interfaces" remote="github" name="PixelExperience/vendor_qcom_opensource_interfaces" revision="thirteen"/>
+    <remove-project name="android_vendor_qcom_opensource_fm-commonsys"/>
 </manifest>
