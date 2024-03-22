@@ -18,4 +18,8 @@
     <project path="vendor/qcom/opensource/commonsys/dpm" remote="github" name="PixelExperience/vendor_qcom_opensource_commonsys_dpm" revision="thirteen"/>
     <project path="vendor/qcom/opensource/audio" remote="github" name="PixelExperience/vendor_qcom_opensource_audio" revision="thirteen"/>
     <project path="hardware/qcom-caf/bengal/audio" remote="github" name="PixelExperience/hardware_qcom-caf_bengal_audio" revision="thirteen"/>
+
+    <project path="device/qcom/qssi" remote="github" name="PixelExperience-Devices/device_qcom_qssi" revision="thirteen"/>
+    <project path="device/qcom/vendor-common" remote="github" name="PixelExperience-Devices/device_qcom_vendor-common" revision="thirteen"/>
+    <project path="device/qcom/wlan" remote="github" name="PixelExperience-Devices/device_qcom_wlan" revision="thirteen"/>
 </manifest>
