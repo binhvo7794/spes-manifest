@@ -20,12 +20,8 @@
     <project path="hardware/qcom-caf/bengal/audio" remote="github" name="PixelExperience/hardware_qcom-caf_bengal_audio" revision="thirteen"/>
 
     <project path="device/qcom/qssi" remote="github" name="PixelExperience-Devices/device_qcom_qssi" revision="thirteen"/>
-    <project path="device/qcom/vendor-common" remote="github" name="PixelExperience-Devices/device_qcom_vendor-common" revision="thirteen"/>
     <project path="device/qcom/wlan" remote="github" name="PixelExperience-Devices/device_qcom_wlan" revision="thirteen"/>
 
-    <remove-project name="android_vendor_qcom_opensource_interfaces"/>
-    <remove-project name="android_vendor_qcom_opensource_fm-commonsys"/>
-    <remove-project name="PixelExperience/hardware_qcom-caf_bengal_display" />
     <project path="hardware/qcom-caf/bengal/display" remote="github" name="TheMatheusDev/hardware_qcom-caf_bengal_display" revision="thirteen"/>
 
     <!-- Prebuilt kerne-->
