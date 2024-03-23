@@ -8,5 +8,6 @@
   <project path="kernel/xiaomi/sm6225" remote="github" name="binhvo7794/kernel_xiaomi_sm6225" revision="main"/>
 
   <project path="hardware/xiaomi" remote="github" name="binhvo7794/android_hardware_xiaomi" revision="lineage-20"/>
-  <project path="vendor/gapps" remote="gitlab" name="MindTheGapps/vendor_gapps" revision="tau"/>
+  <project path="vendor/gapps" remote="gitlab" name="binhvo7794/vendor_gapps" revision="tau"/>
+
 </manifest>
