@@ -9,5 +9,6 @@
 
   <project path="hardware/xiaomi" remote="github" name="binhvo7794/android_hardware_xiaomi" revision="lineage-20"/>
   <project path="vendor/gapps" remote="gitlab" name="binhvo7794/vendor_gapps" revision="tau"/>
+  <project path="vendor/xiaomi/camera" remote="gitlab" name="hefatss/proprietary_vendor_xiaomi_camera" revision="topaz-leica"/>
 
 </manifest>
