@@ -1,12 +1,39 @@
 <manifest>
   <remote name="gitlab-pe" fetch="https://gitlab.pixelexperience.org"></remote>
-  <remote name="gitlab" fetch="https://gitlab.com"></remote>
+
+
+  <remove-project name="PixelExperience-Devices/device_qcom_common"/>
+  <project path="device/qcom/common" remote="github" name="PixelExperience-Devices/device_qcom_common" revision="thirteen"/>
+  <project path="device/qcom/common-sepolicy" remote="github" name="binhvo7794/device_qcom_common-sepolicy" revision="thirteen"/>
+  <!-- THESE TWO ABOVE IS EVOLUTION-X SPECIFIC. YOU NEED TO CHANGE THE BELOW FILES TO YOUR MATCH YOUR ROM NAME! -->
+  <!-- device/qcom/common/common.mk, device/qcom/common-sepolicy/sepolicy_vndr-legacy/SEPolicy.mk -->
+  <project path="device/qcom/qssi" remote="github" name="PixelExperience-Devices/device_qcom_qssi" revision="thirteen"/>
+  <project path="device/qcom/vendor-common" remote="github" name="PixelExperience-Devices/device_qcom_vendor-common" revision="thirteen"/>
+  <project path="device/qcom/wlan" remote="github" name="PixelExperience-Devices/device_qcom_wlan" revision="thirteen"/>
+
+  <project path="vendor/qcom/common" remote="gitlab-pe" name="android/vendor-blobs/vendor_qcom_common" revision="thirteen"/>
+  <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" remote="github" name="PixelExperience/vendor_qcom_opensource_commonsys-intf_bluetooth" revision="thirteen"/>
+  <project path="vendor/qcom/opensource/core-utils" remote="github" name="PixelExperience/vendor_qcom_opensource_core-utils" revision="thirteen"/>
+  <project path="vendor/qcom/opensource/commonsys/dpm" remote="github" name="PixelExperience/vendor_qcom_opensource_commonsys_dpm" revision="thirteen"/>
+  <project path="vendor/qcom/opensource/audio" remote="github" name="PixelExperience/vendor_qcom_opensource_audio" revision="thirteen"/>
+  <remove-project name="android_vendor_qcom_opensource_interfaces"/>
+  <project path="vendor/qcom/opensource/interfaces" remote="github" name="PixelExperience/vendor_qcom_opensource_interfaces" revision="thirteen"/>
+  <remove-project name="android_vendor_qcom_opensource_fm-commonsys"/>
+
+  <!-- Source NFC -->
+  <remove-project name="platform/hardware/st/nfc"/>
+  <project path="hardware/st/nfc" remote="github" name="PixelExperience/hardware_st_nfc" revision="thirteen"/>
+
+
+
 
   <!--Import tree source-->
-  <project path="device/xiaomi/spes" remote="github" name="binhvo7794/device_xiaomi_spes" revision="13"/>
-  <project path="vendor/xiaomi/spes" remote="github" name="binhvo7794/vendor_xiaomi_spes" revision="A13"/>
-  <project path="kernel/xiaomi/sm6225" remote="github" name="binhvo7794/kernel_xiaomi_sm6225" revision="main"/>
+  <project path="device/xiaomi/spes" remote="github" name="binhvo7794/device_xiaomi_spes" revision="thirteen"/>
+  <project path="device/xiaomi/sm6225-common" remote="github" name="PixelExperience-Devices/device_xiaomi_sm6225-common" revision="thirteen"/>
+  <project path="vendor/xiaomi/spes" remote="github" name="binhvo7794/vendor_xiaomi_spes" revision="13.0"/>
+  <project path="vendor/xiaomi/sm6225-common" remote="gitlab-pe" name="android/vendor-blobs/vendor_xiaomi_sm6225-common" revision="thirteen"/>
 
+  <project path="kernel/xiaomi/sm6225" remote="github" name="binhvo7794/kernel_xiaomi_sm6225" revision="main"/>
 
   <project path="hardware/xiaomi" remote="github" name="LineageOS/android_hardware_xiaomi" revision="lineage-20"/>
 </manifest>
