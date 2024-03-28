@@ -14,9 +14,6 @@
   <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" remote="github" name="PixelExperience/vendor_qcom_opensource_commonsys-intf_bluetooth" revision="thirteen"/>
   <!--<project path="vendor/qcom/opensource/core-utils" remote="github" name="PixelExperience/vendor_qcom_opensource_core-utils" revision="thirteen"/>-->
 
-  <!-- Source NFC -->
-  <project path="hardware/st/nfc" remote="github" name="PixelExperience/hardware_st_nfc" revision="thirteen"/>
-
 
 
 
